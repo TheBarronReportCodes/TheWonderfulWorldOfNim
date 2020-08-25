@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <title>The Wonderful World of Nim</title>
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+
+    <!-- Internal CSS-->
+    <link rel="stylesheet" href="stylesheets/design.css" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/b8e32a1485.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Nim</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><img src="images/posterimage1.jpg" width="100" height="50" alt="logo"></li>
+                <li><a href="./index.html">Overview</a></li>
+                <li><a href="./setup.html">Setting Up</a></li>
+                <li><a href="#gameplay">Gameplay</a></li>
+                <li><a href="./variations.html">Variations</a></li>
+                <li><a href="./menuSettings.html">Menu Settings</a></li>
+                <li><a href="./features.html">Features</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-container">
+        <!--sub section (gameplay)-->
+        <article class="index-feature-3">
+            <!--container-->
+            <div class="container">
+                <!--featurette-->
+                <div class="featurette">
+                    <a id="gameplay">
+                        <!--image-->
+                        <img class="featurette-image pull-left" src="images/blue.png" alt="featurette image 3" />
+                    </a>
+                    <!--heading-->
+                    <h2 class="featurette-heading">Gameplay</h2>
+                    <!--information-->
+                    <p class="lead">Each of the two players take pieces from the pile/piles alternatively.
+                        Who goes first is determined by an agreement between the two players or an independent,
+                        intermediary party.
+                    </p>
+                    <p class="lead">What You Do On A Turn
+                    <ul>
+                        <li>Multiple Piles: On your turn, remove any number of pieces from a pile. You can only remove
+                            pieces from one pile each turn.</li>
+                        <li>One Pile: When playing one pile you must restrict the maximum amount a player can remove per
+                            turn, represented by N. On your turn, remove between 1 and the maximum amount allowed (1 <
+                                n) per turn</li>
+                        <li>You can only remove from a pile/piles. You cannot add to a pile unless playing a different
+                            variation of the game. Once a removal from the pile/piles has been confirmed, your turn is
+                            ended</li>
+                    </ul>
+                    </p>
+                    <p class="lead">Getting Started
+                    <ol>
+                        <li>Determine the style of play</li>
+                        <li>Determine which player goes first</li>
+                        <li>Take turns (see What You Do On A Turn above)</li>
+                        <li>Repeat step 3 until the condition for the style of play is met (Someone wins/losses)</li>
+                    </ol>
+                    </p>
+                </div>
+                <!--divider-->
+                <hr />
+            </div>
+        </article>
+
+
+        <footer>
+            <p><b>&copy; Jordan Barron 2020 - All Rights Reserved.</b><br /></p>
+        </footer>
+    </section>
+</body>
+
+</html>

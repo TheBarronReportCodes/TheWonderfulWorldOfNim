@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <title>The Wonderful World of Nim</title>
+    <!-- Bootstrap CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
+
+    <!-- Internal CSS-->
+    <link rel="stylesheet" href="stylesheets/design.css" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/b8e32a1485.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default" id="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Nim</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><img src="images/posterimage1.jpg" width="100" height="50" alt="logo"></li>
+                <li><a href="./index.html">Overview</a></li>
+                <li><a href="./setup.html">Setting Up</a></li>
+                <li><a href="./gameplay.html">Gameplay</a></li>
+                <li><a href="#variations">Variations</a></li>
+                <li><a href="./menuSettings.html">Menu Settings</a></li>
+                <li><a href="./features.html">Features</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="main-container">
+        <!--sub section (variations around the world)-->
+        <article class="index-feature-4">
+            <!--container-->
+            <div class="container">
+                <!--featurette-->
+                <div class="featurette">
+                    <a id="variations"></a>
+                    <!--image-->
+                    <img class="featurette-image pull-right" src="images/green.png" alt="featurette image 4" />
+                    </a>
+                    <!--heading-->
+                    <h2 class="featurette-heading">Variations
+                        <br />
+                        <span class="muted">Different Styles of Play</span>
+                    </h2>
+                    <!--information-->
+                    <p class="lead">
+                    <ul>
+                        <li>In some variations of the game you can add pieces to an empty pile instead of removing them.
+                            <ul>
+                                <li>For example, we can play a game that starts at 0 in the pile and each player can add
+                                    a maximum of n pieces on their turn. The first one to 100 wins.</li>
+                            </ul>
+                        </li>
+                        <li>Another variation involves Misère play. This means the last player to remove the remaining
+                            pieces loses rather than wins like in normal play.</li>
+                        <li>Bounded Nim – Players cannot take more than N pieces per turn. This is somewhat as common as
+                            Misère and Normal Play</li>
+                        <li>Double Nim – Each turn, your opponent takes pieces from two different piles</li>
+                        <li>Large Nim – Must take pieces from the largest pile first until it is exhausted</li>
+                        <li>Small Nim – Must take pieces from the smallest pile first until it is exhausted </li>
+                    </ul>
+                    </p>
+                </div>
+                <!--divider-->
+                <hr />
+            </div>
+        </article>
+        <footer>
+            <p><b>&copy; Jordan Barron 2020 - All Rights Reserved.</b><br /></p>
+        </footer>
+    </section>
+</body>
+
+</html>
